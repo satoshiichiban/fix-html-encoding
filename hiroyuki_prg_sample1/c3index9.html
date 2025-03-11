@@ -1,0 +1,20 @@
+<script>
+var height = 168;
+var income = 520;
+var age = 36;
+var result = 0;
+if (height >= 175) {
+  document.write("<p>身長OK</p>");
+  result = result + 10;
+}
+if (income >= 500) {
+  document.write("<p>年収OK</p>");
+  result = result + 50;
+}
+if (age <= 35) {
+  document.write("<p>年齢OK</p>");
+  result = result + 20;
+}
+result = Math.round(result / 80 * 100);
+document.write(result + "点！");
+</script>

@@ -1,0 +1,19 @@
+<h1>ひろゆきの森の穴</h1>
+<p>秘密をつぶやいてってね！</p>
+<input type="text" id="message">
+<input type="button" id="pushButton" value="つぶやく">
+<ul id="kaiwaList"></ul>
+
+<script>
+  pushButton.onclick = function () {
+    var m = message.value;
+    var h_m = "もふん";
+    if (m.includes("ひろゆき")) {
+      h_m = "人を呼ぶときは『さん』をつけましょう";
+    }
+    m = "<li>あなた「" + m + "」</li>";
+    h_m = "<li>ひろゆき「" + h_m + "」</li>";
+    kaiwaList.innerHTML = kaiwaList.innerHTML + m;
+    kaiwaList.innerHTML = kaiwaList.innerHTML + h_m;
+  };
+</script>

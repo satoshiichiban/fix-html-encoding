@@ -1,0 +1,11 @@
+<input type="button" id="pushButton" value="押す" />
+<ul id="kaiwaList">
+  <li>押すなよ？</li>
+  <li>絶対押すなよ？</li>
+</ul>
+
+<script>
+  pushButton.onclick = function () {
+    kaiwaList.innerHTML = kaiwaList.innerHTML + "<li>バシャーン！</li>";
+  };
+</script>

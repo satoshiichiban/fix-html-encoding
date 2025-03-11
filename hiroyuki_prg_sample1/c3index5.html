@@ -1,0 +1,17 @@
+<script>
+var suugaku = Math.floor(Math.random() * 101);
+var eigo = Math.floor(Math.random() * 101);
+var sum = suugaku + eigo;
+document.write("<p>数学: " + suugaku + "</p>");
+document.write("<p>英語: " + eigo + "</p>");
+document.write("<p>合計: " + sum + "</p>");
+if (sum >= 160) {
+  document.write("<p>特待生</p>");
+} if (sum >= 140) {
+  document.write("<p>合格</p>");
+} if (sum >= 120) {
+  document.write("<p>補欠合格</p>");
+} else {
+  document.write("<p>不合格</p>");
+}
+</script>

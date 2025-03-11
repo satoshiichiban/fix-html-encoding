@@ -1,0 +1,14 @@
+# macOSの不要なシステムファイル
+.DS_Store
+Icon?  # アイコンファイルを除外
+
+# Python のコンパイル済のファイルとキャッシュ
+__pycache__/
+*.pyc
+*.pyo
+
+# VSCode の設定ファイル除外
+.vscode/
+
+# 環境構築用の仮想環境フォルダ
+venv/

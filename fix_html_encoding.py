@@ -5,9 +5,9 @@ import shutil
 desktop_path = os.path.join(os.path.expanduser("~"), "Desktop")
 
 # 元のHTMLファイルがあるフォルダ（デスクトップ上）
-source_folder = os.path.join(desktop_path, "hiroyuki_prg_sample2")
+source_folder = os.path.join(desktop_path, "hiroyuki_prg_sample1")
 # 修正後のHTMLファイルを保存するフォルダ（デスクトップ上）
-output_folder = os.path.join(desktop_path, "hiroyuki_prg_sample3")
+output_folder = os.path.join(desktop_path, "hiroyuki_prg_sample2")
 
 # 出力フォルダ無ければ→作成
 if not os.path.exists(output_folder):
